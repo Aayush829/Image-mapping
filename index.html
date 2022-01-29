@@ -1,0 +1,55 @@
+<html>
+  <head>
+    <title>Image Mapping</title>
+  </head>
+
+  <body>
+    <h1
+      style="
+        width: 400px;
+        margin: 10px auto;
+        text-align: center;
+        color: blueviolet;
+      "
+    >
+      Monuments of Delhi
+    </h1>
+    <img
+      src="monuments.png"
+      usemap="#imagemap"
+      style="display: block; width: 80vw; margin: 5px auto"
+    />
+    <map name="imagemap">
+      <area
+        shape="rect"
+        coords="25 25 350 275"
+        href="https://en.wikipedia.org/wiki/Red_Fort"
+      />
+      <area
+        shape="rect"
+        coords="400 20 700 250"
+        href="https://en.wikipedia.org/wiki/India_Gate"
+      />
+      <area
+        shape="rect"
+        coords="740 25 1050 220"
+        href="https://en.wikipedia.org/wiki/Lotus_Temple"
+      />
+      <area
+        shape="rect"
+        coords="10 310 350 520"
+        href="https://en.wikipedia.org/wiki/Humayun%27s_Tomb"
+      />
+      <area
+        shape="rect"
+        coords="390 290 690 520"
+        href="https://en.wikipedia.org/wiki/Swaminarayan_Akshardham_(Delhi)"
+      />
+      <area
+        shape="rect"
+        coords="740 260 1040 520"
+        href="https://en.wikipedia.org/wiki/Qutb_Minar"
+      />
+    </map>
+  </body>
+</html>
